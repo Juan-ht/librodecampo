@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Libro de campo</string>
+    <string name="txt_no_account">¿No tienes cuenta? Crea una</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_login">Iniciar sesión</string>
+    <string name="txt_email">E-mail</string>
+    <string name="valor_del_jornal">Valor del jornal</string>
+    <string name="dia_en_el_que_se_realizo_la_actividad">Día en el que se realizó la actividad</string>
+    <string name="parcela_donde_se_realizo_el_jornal">Parcela donde se realizó el jornal</string>
+    <string name="tipo_actividad">Tipo de actividad realizada</string>
+    <string name="nombre_trabajador">Nombre trabajador</string>
+    <string name="tipo_jornal">Tipo jornal</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_anadir_jornal">Añadir jornal</string>
+    <string name="anadir_dia">Añadir día</string>
+</resources>
