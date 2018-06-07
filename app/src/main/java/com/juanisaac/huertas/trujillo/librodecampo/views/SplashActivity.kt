@@ -1,9 +1,10 @@
-package com.juanisaac.huertas.trujillo.librodecampo
+package com.juanisaac.huertas.trujillo.librodecampo.views
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.juanisaac.huertas.trujillo.librodecampo.R
 import com.juanisaac.huertas.trujillo.librodecampo.login.LoginActivity
 
 class SplashActivity : AppCompatActivity() {

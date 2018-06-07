@@ -1,14 +1,14 @@
-package com.juanisaac.huertas.trujillo.librodecampo
+package com.juanisaac.huertas.trujillo.librodecampo.views
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.juanisaac.huertas.trujillo.librodecampo.R
 import com.juanisaac.huertas.trujillo.librodecampo.adapter.PageAdapter
-import com.juanisaac.huertas.trujillo.librodecampo.fragment.PageFragment
 import com.juanisaac.huertas.trujillo.librodecampo.login.LoginActivity
 import kotlinx.android.synthetic.main.main_activity.*
 
-class MainActivity : AppCompatActivity() {
+class TabActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
 
         val intent = Intent(applicationContext, LoginActivity::class.java)
         startActivity(intent)
-        finish()
 
         super.onBackPressed()
     }
