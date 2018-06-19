@@ -14,4 +14,8 @@
     <string name="action_settings">Settings</string>
     <string name="btn_anadir_jornal">Añadir jornal</string>
     <string name="anadir_dia">Añadir día</string>
+    <string name="resumen">Resumen</string>
+    <string name="tiempo_por_horas">Tiempo por horas</string>
+    <string name="tiempo_semanal">Tiempo Semanal</string>
+    <string name="resumen_de_la_semana">Resumen de la semana</string>
 </resources>

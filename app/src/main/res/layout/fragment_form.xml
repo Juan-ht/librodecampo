@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView android:layout_height="match_parent"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#5fb0c9"
-        android:orientation="vertical"
-        android:scrollbarAlwaysDrawVerticalTrack="true">
-
-        <TextView
-            android:id="@+id/login_title"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
-            android:layout_marginBottom="16dp"
-            android:gravity="center_horizontal"
-            android:text="@string/anadir_dia"
-            android:textColor="#fff"
-            android:textSize="26sp"
-            android:textStyle="bold" />
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -34,25 +23,37 @@
             android:orientation="vertical"
             android:padding="20dp">
 
+
+            <TextView
+                android:id="@+id/login_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:text="@string/anadir_dia"
+                android:textColor="#5fb0c9"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingTop="30dp">
 
-                <android.support.design.widget.TextInputLayout
+                <Spinner
+                    android:id="@+id/spinner_tipo_jornal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="40dp"
+                    />
 
-                    <EditText
-                        android:id="@+id/edit_tipo_jornal"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableTint="#FF4081"
-                        android:hint="@string/tipo_jornal"
-                        android:inputType="text"
-                        android:singleLine="true" />
-                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:id="@+id/tipoJornal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -99,20 +100,6 @@
                         android:singleLine="true" />
                 </android.support.design.widget.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <EditText
-                        android:id="@+id/edit_dia"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:drawableTint="#FF4081"
-                        android:hint="@string/dia_en_el_que_se_realizo_la_actividad"
-                        android:inputType="date"
-                        android:singleLine="true" />
-                </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -141,6 +128,5 @@
                     android:textSize="18sp" />
             </LinearLayout>
         </RelativeLayout>
-
-    </RelativeLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>

@@ -1,15 +1,19 @@
 package com.juanisaac.huertas.trujillo.database
 
+import android.arch.persistence.room.Database
 import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
+import android.arch.persistence.room.TypeConverters
 import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.juanisaac.huertas.trujillo.database.daos.JornalDao
+import com.juanisaac.huertas.trujillo.database.tables.Jornal
 
-abstract  class AppDataBase:RoomDatabase() {
-
-
-
+@TypeConverters(Converters::class)
+@Database(entities = arrayOf(Jornal::class), version = 2, exportSchema = false)
+abstract class AppDataBase :RoomDatabase() {
+    abstract fun jornalDao(): JornalDao
     companion object {
         private var INSTANCE: AppDataBase? = null
 

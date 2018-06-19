@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/day"
+        style="@style/ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/min_temp"
+        style="@style/ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/max_temp"
+        style="@style/ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/precip_probability"
+        style="@style/ListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+</LinearLayout>

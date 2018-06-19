@@ -7,7 +7,7 @@ import android.widget.Toast
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.juanisaac.huertas.trujillo.librodecampo.MainActivity
+import com.juanisaac.huertas.trujillo.librodecampo.views.TabActivity
 import com.juanisaac.huertas.trujillo.librodecampo.R
 
 import kotlinx.android.synthetic.main.login_activity.*
@@ -26,14 +26,15 @@ class LoginActivity : AppCompatActivity() {
         btn_login.setOnClickListener({
             singIn(edit_email.text.toString(), edit_password.text.toString())
         })
-
+        edit_email.setText("")
+        edit_password.setText("")
     }
 
 
     fun singIn(email:String, password:String){
         mFirebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, OnCompleteListener<AuthResult> { task ->
             if(task.isSuccessful){
-                var intent = Intent(this, MainActivity::class.java)
+                var intent = Intent(this, TabActivity::class.java)
                 startActivity(intent)
 
             }else{
