@@ -47,6 +47,21 @@ class DBManager {
             try {
                 val jornalList = appDatabase.jornalDao().getAll() as ArrayList<Jornal>
                 listener.finishAction(jornalList)
+            } catch (e: NullPointerException) {
+                e.printStackTrace()
+                close()
+                Log.d("DBManager", e.printStackTrace().toString())
+            }
+        }.start()
+        close()
+    }
+
+    fun deleteAll(listener: CallBackData,context: Context) {
+        appDatabase = AppDataBase.getInstance(context)!!
+        open(context)
+        Thread {
+            try {
+                val jornalList = appDatabase.jornalDao().deleteAll()
                 close()
             } catch (e: NullPointerException) {
                 e.printStackTrace()

@@ -6,8 +6,12 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.firebase.database.*
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.juanisaac.huertas.trujillo.database.tables.Jornal
 import com.juanisaac.huertas.trujillo.librodecampo.R
+import com.juanisaac.huertas.trujillo.librodecampo.Repository
 import com.juanisaac.huertas.trujillo.librodecampo.adapter.JornalAdapter
 import com.juanisaac.huertas.trujillo.librodecampo.listener.CallBackData
 import com.juanisaac.huertas.trujillo.librodecampo.managers.DBManager
@@ -15,6 +19,8 @@ import kotlinx.android.synthetic.main.fragment_list.*
 
 
 class ListDaysFragment : Fragment() {
+
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_list, container, false)
@@ -31,30 +37,30 @@ class ListDaysFragment : Fragment() {
         super.onViewStateRestored(savedInstanceState)
     }
 
-    private fun setView() {
-        Thread {
-            var jornalList: ArrayList<Jornal> = ArrayList()
-            var dbManager = DBManager()
-            var jornalAdapter:JornalAdapter
-            dbManager.getListJornal(object : CallBackData {
+    private fun setView(){
+        var dbManager = DBManager()
+        var jornalAdapter: JornalAdapter
+        var jornalList: ArrayList<Jornal>
+        dbManager.getListJornal(object : CallBackData {
+            override fun finishAction(jornal: ArrayList<Jornal>) {
+                Repository.list = jornal
 
-                override fun finishAction(jornal: ArrayList<Jornal>) {
-                    jornalList = jornal
-                    Log.d("bbdd data", jornal.toString())
-                    activity?.runOnUiThread({
-                        Log.d("adapter data", jornalList.toString())
-                        jornalAdapter = JornalAdapter(jornalList)
-                        lista_jornales.adapter = jornalAdapter
-                    })
-                }
-
-                override fun error(s: String) {
-                    Log.d("error", s)
-                }
-            }, context!!)
-
-        }.start()
+                activity?.runOnUiThread({
+                    Log.d("datos", jornal.toString())
+                    jornalAdapter = JornalAdapter(Repository.list)
+                    lista_jornales.adapter = jornalAdapter
+                    lista_jornales.deferNotifyDataSetChanged()
+                })
+                lista_jornales.deferNotifyDataSetChanged()
+            }
+            override fun error(s: String) {
+                Log.d("error", s)
+            }
+        }, context!!)
     }
 
-
+    override fun onResume() {
+        super.onResume()
+        setView()
+    }
 }

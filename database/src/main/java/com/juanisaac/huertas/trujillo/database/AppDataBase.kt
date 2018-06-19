@@ -11,7 +11,7 @@ import com.juanisaac.huertas.trujillo.database.daos.JornalDao
 import com.juanisaac.huertas.trujillo.database.tables.Jornal
 
 @TypeConverters(Converters::class)
-@Database(entities = arrayOf(Jornal::class), version = 1, exportSchema = false)
+@Database(entities = arrayOf(Jornal::class), version = 2, exportSchema = false)
 abstract class AppDataBase :RoomDatabase() {
     abstract fun jornalDao(): JornalDao
     companion object {

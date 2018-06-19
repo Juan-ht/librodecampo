@@ -26,7 +26,8 @@ class LoginActivity : AppCompatActivity() {
         btn_login.setOnClickListener({
             singIn(edit_email.text.toString(), edit_password.text.toString())
         })
-
+        edit_email.setText("")
+        edit_password.setText("")
     }
 
 

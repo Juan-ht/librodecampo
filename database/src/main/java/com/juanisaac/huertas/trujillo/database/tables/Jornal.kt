@@ -7,9 +7,9 @@ import java.util.*
 @Entity(tableName = "jornal")
 data class Jornal(
         var tipoJornal: String,
-        var nombreTrabajador: String,
+        @PrimaryKey(autoGenerate = false)var nombreTrabajador: String,
         var tipoActividad: String,
         var parcela: String,
-        @PrimaryKey(autoGenerate = false)var dia: Date,
+        var dia: String,
         var valorJornal: String
 )

@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="SAVE" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -15,40 +16,43 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a265e0aa-0987-4e10-8b19-8f5e354337c8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/icon-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/extensions/Extensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackSaveData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/JornalModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/icon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/icon_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icon_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/icon_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/icon_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/Converters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt" afterDir="false" />
+    <list default="true" id="a265e0aa-0987-4e10-8b19-8f5e354337c8" name="Default" comment="project done">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/DayAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/HourAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/Connection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/DarkSkyKeys.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/JSONParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/CurrentWeather.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Day.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Hour.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/DailyWeather.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/HourlyWeather.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/activity_hourly_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/clear_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/clear_night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cloudy_night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/daily_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/degree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hourly_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partly_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partly_cloudy_day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partly_cloudy_night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_daily_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/daily_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/hourly_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -60,42 +64,42 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_2_40_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_15_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ListDaysFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ListDaysFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/PageFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/WeatherFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/WeatherFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Jornal.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/JornalModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_tab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_tab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/database/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,44 +138,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListDaysFragment.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListDaysFragment.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ListDaysFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-              <folding>
-                <element signature="e#62#526#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt">
+      <file leaf-file-name="SaveDataTask.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="62">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_activity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2">
+          <provider editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormFragment.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt">
+      <file leaf-file-name="item_jornal.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-151">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JornalDao.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jornal.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -179,47 +210,17 @@
       <file leaf-file-name="DBManager.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="697">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallBackData.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackData.kt">
+      <file leaf-file-name="AppDataBase.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JornalDao.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Converters.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/Converters.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#49#223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JornalAdapter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -230,11 +231,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="layoutResourceFile" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.google.</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -3071,8 +3077,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.41/18587320bcaffacd1fca5bda7fe0e3e63acc4d30/kotlin-gradle-plugin-1.2.41.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/6926ea357237058db2823f8f388009ccb8f11035/kotlin-android-extensions-1.2.41-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/10100eedfe2e26b9cf18b850d997b42d02af7500/kotlin-android-extensions-1.2.41.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/15d345a81ab5756fc59b81ba99435d20568ee8e6/google-services-4.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/a9fdd01c6f67fa7d12cc156a7a20a5086fbd1287/google-services-4.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.tools/gradle/1.25.1/d090f5b0e22035e2ce468ac22cc1d51943a151de/gradle-1.25.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/2b72f370c8f25df4f1cc76bb9059c4ecd916ca00/builder-3.2.0-alpha16-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/8d9b21b4ff4b1d3c730f2132357aaa797bb473a6/builder-3.2.0-alpha16.jar" />
@@ -3254,8 +3260,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.41/18587320bcaffacd1fca5bda7fe0e3e63acc4d30/kotlin-gradle-plugin-1.2.41.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/6926ea357237058db2823f8f388009ccb8f11035/kotlin-android-extensions-1.2.41-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/10100eedfe2e26b9cf18b850d997b42d02af7500/kotlin-android-extensions-1.2.41.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/15d345a81ab5756fc59b81ba99435d20568ee8e6/google-services-4.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/a9fdd01c6f67fa7d12cc156a7a20a5086fbd1287/google-services-4.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.tools/gradle/1.25.1/d090f5b0e22035e2ce468ac22cc1d51943a151de/gradle-1.25.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/2b72f370c8f25df4f1cc76bb9059c4ecd916ca00/builder-3.2.0-alpha16-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/8d9b21b4ff4b1d3c730f2132357aaa797bb473a6/builder-3.2.0-alpha16.jar" />
@@ -3437,8 +3443,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.41/18587320bcaffacd1fca5bda7fe0e3e63acc4d30/kotlin-gradle-plugin-1.2.41.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/6926ea357237058db2823f8f388009ccb8f11035/kotlin-android-extensions-1.2.41-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.41/10100eedfe2e26b9cf18b850d997b42d02af7500/kotlin-android-extensions-1.2.41.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/15d345a81ab5756fc59b81ba99435d20568ee8e6/google-services-4.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/4.0.1/a9fdd01c6f67fa7d12cc156a7a20a5086fbd1287/google-services-4.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.tools/gradle/1.25.1/d090f5b0e22035e2ce468ac22cc1d51943a151de/gradle-1.25.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/2b72f370c8f25df4f1cc76bb9059c4ecd916ca00/builder-3.2.0-alpha16-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.0-alpha16/8d9b21b4ff4b1d3c730f2132357aaa797bb473a6/builder-3.2.0-alpha16.jar" />
@@ -3777,56 +3783,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Aceituna.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/form/FormActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/form_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/Login.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/GoogleLogin.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LogOutActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/logout_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/FirsFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tab.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FirstFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/SecondFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ThirdFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/PageFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/SplashActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/extensions/Extensions.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/TabActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/PageAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackSaveData.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Jornal.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/database/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt" />
-        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackData.kt" />
         <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/Converters.kt" />
-        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/Respository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Day.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/CurrentWeather.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/Connection.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/DarkSkyKeys.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/JSONParser.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Hour.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/DayAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/JornalModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/HourAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/HourlyWeather.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/DailyWeather.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/WeatherFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/daily_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/hourly_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_weather.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_daily_weather.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/Repository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt" />
+        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt" />
+        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt" />
+        <option value="$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ListDaysFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -3842,81 +3849,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="managers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="librodecampo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="database" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="database" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="database" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="database" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="database" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="database" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="daos" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="LibroDeCampo" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -3925,7 +3861,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3945,7 +3880,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.developerphil.adbidea.ui.ModuleChooserDialogHelper-SELECTED_MODULE" value="app" />
-    <property name="device.picker.selection" value="192.168.0.108:5555" />
+    <property name="device.picker.selection" value="192.168.1.3:5555" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../and-nd-firebase-1.00-starting-point" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -3961,10 +3896,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\java\com\juanisaac\huertas\trujillo\librodecampo\extensions" />
       <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\res\layout" />
       <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\res\drawable" />
-      <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app" />
+      <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\java\com\juanisaac\huertas\trujillo\librodecampo\views" />
+      <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\java\com\juanisaac\huertas\trujillo\librodecampo\model" />
+      <recent name="C:\Users\juani\AndroidStudioProjects\LibroDeCampo\app\src\main\java\com\juanisaac\huertas\trujillo\librodecampo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -4101,47 +4037,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="LibroDeCampo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="LibroDeCampo" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -4194,6 +4089,47 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="LibroDeCampo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="LibroDeCampo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -4220,19 +4156,28 @@
       <option name="presentableId" value="Default" />
       <updated>1524764314251</updated>
     </task>
+    <task id="LOCAL-00001" summary="now, we can see data in listDayFragment, add room database and data is saved on it">
+      <created>1528376272252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528376272252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3293718" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" sideWeight="0.5008489" side_tool="true" weight="0.2322239" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32767403" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030257" side_tool="true" weight="0.32767403" />
       <window_info anchor="right" id="Preview" order="7" weight="0.3290469" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4533107" />
@@ -4242,8 +4187,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.2322239" />
-      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49697885" weight="0.32767403" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.4969743" weight="0.32767403" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.3290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="8" side_tool="true" weight="0.32930514" />
@@ -4257,6 +4201,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -4288,148 +4233,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="now, we can see data in listDayFragment, add room database and data is saved on it" />
+    <MESSAGE value="project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="project done" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Aceituna.kt" />
-    <entry file="file://$PROJECT_DIR$/database/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="5454" column="19" selection-start-line="5454" selection-start-column="19" selection-end-line="5454" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/GoogleLogin.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LogOutActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab.xml">
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/juanisaac/huertas/trujillo/librodecampo/databinding/LoginActivityBinding.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/FirsFragment.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tab.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/logout_activity.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/juanisaac/huertas/trujillo/librodecampo/databinding/LoginActivityBindingImpl.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/form/FormActivity.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/WeatherFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="87" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/juanisaac/huertas/trujillo/librodecampo/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="5812" column="28" selection-start-line="5812" selection-start-column="28" selection-end-line="5812" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/form_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="33" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/dc11619be6c45157a142d3753017544896da8e69/kotlin-stdlib-1.2.41-sources.jar!/generated/_Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -4437,10 +4251,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/PageFragment.kt" />
+    <entry file="file://$PROJECT_DIR$/database/build/tmp/kapt3/stubs/debug/com/juanisaac/huertas/trujillo/database/tables/Jornal.java" />
+    <entry file="file://$PROJECT_DIR$/database/build/tmp/kapt3/stubs/debug/com/juanisaac/huertas/trujillo/database/daos/JornalDao.java" />
+    <entry file="file://$PROJECT_DIR$/database/build/generated/source/kapt/debug/com/juanisaac/huertas/trujillo/database/daos/JornalDao_Impl.java" />
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/Converters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/activity_daily_weather.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/Connection.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/DarkSkyKeys.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/api/JSONParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/extensions/Extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackSaveData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/login/LoginActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/CurrentWeather.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Day.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/Hour.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/DayAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/PageAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="85">
           <caret line="12" column="61" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/HourAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="67" column="68" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/HourlyWeather.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#59#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/DailyWeather.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#59#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -4449,182 +4410,210 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/extensions/Extensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/PageFragment.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackSaveData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/JornalModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/build/tmp/kapt3/stubs/debug/com/juanisaac/huertas/trujillo/database/tables/Jornal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#56#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/Converters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#49#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/TabActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_form.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/daily_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/hourly_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hourly_weather.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#1086#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_daily_weather.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="e#529#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/views/SplashActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="204">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/listener/CallBackData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/model/JornalModel.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/adapter/JornalAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#61#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/Repository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/WeatherFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/daos/JornalDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/tables/Jornal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/DBManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/src/main/java/com/juanisaac/huertas/trujillo/database/AppDataBase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/ListDaysFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
-          <folding>
-            <element signature="e#62#526#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_jornal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/fragment/FormFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/juanisaac/huertas/trujillo/librodecampo/managers/SaveDataTask.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

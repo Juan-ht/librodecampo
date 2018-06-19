@@ -5,7 +5,7 @@ import android.arch.persistence.room.Insert
 import android.arch.persistence.room.OnConflictStrategy
 import android.arch.persistence.room.Query
 import com.juanisaac.huertas.trujillo.database.tables.Jornal
-import java.util.ArrayList
+import java.util.*
 
 @Dao
 interface JornalDao {
@@ -21,5 +21,6 @@ interface JornalDao {
 
     @Query("DELETE FROM jornal")
     fun deleteAll()
+
 
 }

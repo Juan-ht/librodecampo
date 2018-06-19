@@ -8,121 +8,125 @@
     android:orientation="vertical"
     android:scrollbarAlwaysDrawVerticalTrack="true">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginRight="30dp"
-        android:background="#fff"
-        android:elevation="4dp"
-        android:orientation="vertical"
-        android:padding="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/login_title"
+        <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
-            android:gravity="center_horizontal"
-            android:text="@string/anadir_dia"
-            android:textColor="#5fb0c9"
-            android:textSize="26sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="30dp"
+            android:background="#fff"
+            android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingTop="30dp">
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_tipo_jornal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:drawableTint="#FF4081"
-                    android:hint="@string/tipo_jornal"
-                    android:inputType="text"
-                    android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_nombre"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:drawableTint="#FF4081"
-                    android:hint="@string/nombre_trabajador"
-                    android:inputType="text"
-                    android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_tipo_actividad"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:drawableTint="#FF4081"
-                    android:hint="@string/tipo_actividad"
-                    android:inputType="text"
-                    android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_parcela"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:drawableTint="#FF4081"
-                    android:hint="@string/parcela_donde_se_realizo_el_jornal"
-                    android:inputType="text"
-                    android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
+            android:padding="20dp">
 
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_valor_jornal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:drawableTint="#FF4081"
-                    android:hint="@string/valor_del_jornal"
-                    android:inputType="text"
-                    android:singleLine="true" />
-            </android.support.design.widget.TextInputLayout>
-
-            <Button
-                android:id="@+id/btn_anadir_jornal"
+            <TextView
+                android:id="@+id/login_title"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="22dp"
-                android:background="#d67601"
-                android:text="@string/btn_anadir_jornal"
-                android:textAllCaps="false"
-                android:textColor="#fff"
-                android:textSize="18sp" />
-        </LinearLayout>
-    </RelativeLayout>
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:text="@string/anadir_dia"
+                android:textColor="#5fb0c9"
+                android:textSize="26sp"
+                android:textStyle="bold" />
 
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <Spinner
+                    android:id="@+id/spinner_tipo_jornal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tipoJornal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_nombre"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableTint="#FF4081"
+                        android:hint="@string/nombre_trabajador"
+                        android:inputType="text"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_tipo_actividad"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableTint="#FF4081"
+                        android:hint="@string/tipo_actividad"
+                        android:inputType="text"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_parcela"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableTint="#FF4081"
+                        android:hint="@string/parcela_donde_se_realizo_el_jornal"
+                        android:inputType="text"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_valor_jornal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableTint="#FF4081"
+                        android:hint="@string/valor_del_jornal"
+                        android:inputType="text"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_anadir_jornal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:background="#d67601"
+                    android:text="@string/btn_anadir_jornal"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
